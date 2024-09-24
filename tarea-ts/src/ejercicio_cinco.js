@@ -61,7 +61,7 @@ var empleadito = new Empleado("Mario", "Gonzalez", "Barrio Fino", "7555-1234", 3
 empleadito.mostrarDatos();
 console.log("------- Verificando si es mayor de edad -------");
 empleadito.esMayorDeEdad();
-console.log("------- Cargando nuevo sueldo -------");
+console.log("------- Cargando sueldo -------");
 empleadito.cargarSueldo(4200);
 console.log("------- Mostrando sueldo-------");
 empleadito.imprimirSueldo();
